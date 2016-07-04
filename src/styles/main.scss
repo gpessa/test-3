@@ -1,0 +1,13 @@
+
+@import "variables/bootstrap";
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "components/HtmlEditor";
+@import "components/Upload";
+@import "components/Sort";
+
+
+.file{
+  cursor:pointer;
+}
