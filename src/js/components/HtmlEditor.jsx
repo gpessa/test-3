@@ -39,7 +39,7 @@ export default React.createClass({
 
   onSave() {
     this.state.file.type = "text/html";
-    this.setState(this.state);
+    FileActions.saveFile(this.state.file);
     this.hideModal();
   },
 

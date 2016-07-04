@@ -35,7 +35,7 @@ class FileStore extends EventEmitter {
   }
 
   updateFile(file) {
-    file.size = file.size || this.getSize(file.content);
+    file.size = this.getSize(file.content);
 
     let index = this.files.indexOf(file);
     this.files[index] = file;
